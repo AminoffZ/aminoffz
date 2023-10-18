@@ -3,10 +3,10 @@
 ```svg
 <?xml version="1.0" encoding="UTF-8"?>
 <svg
-  width="490"
-  height="498"
+  width="256"
+  height="256"
   version="1.1"
-  viewBox="-64 0 540 500"
+  viewBox="-64 0 512 512"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:cc="http://creativecommons.org/ns#"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
