@@ -1,0 +1,6 @@
+{
+  "prettier.documentSelectors": ["**/*.svg"],
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
