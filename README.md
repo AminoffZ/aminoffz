@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/AminoffZ/aminoffz/main/catpop.svg)
+<img src="https://raw.githubusercontent.com/AminoffZ/aminoffz/main/catpop.svg" width=256 height=256 />
 
 ```svg
 <?xml version="1.0" encoding="UTF-8"?>
