@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/AminoffZ/aminoffz/main/catpop.svg" width=256 height=256 />
+<img src="https://raw.githubusercontent.com/AminoffZ/aminoffz/main/catpop.svg" width=512 height=512 align="center" />
 
 ```svg
 <?xml version="1.0" encoding="UTF-8"?>
