@@ -5,7 +5,7 @@
 <svg
   width="512"
   height="512"
-  version="1.2"
+  version="1.3"
   viewBox="-64 0 512 512"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:cc="http://creativecommons.org/ns#"
@@ -18,27 +18,27 @@
       .flicker-first-frame {
         --opacity-start: 1;
         --opacity-end: 0;
-        animation: flicker 5s infinite;
+        animation: flicker 2s infinite;
       }
 
       .flicker-second-frame {
         --opacity-start: 0;
         --opacity-end: 1;
-        animation: flicker 5s infinite;
+        animation: flicker 2s infinite;
       }
 
       #slams {
         --opacity-start: 1;
         --opacity-end: 0;
-        animation: flicker 5s infinite;
+        animation: flicker 2s infinite;
         animation-delay: 0.1s;
       }
 
       @keyframes flicker {
-        0%,3%,6%,9%,12%,15%,18%,21%,24%,27%,30%,33%,36%,39%,42%,45%,48%,51%,54%,57% {
+        0%, 6%, 12%, 18%, 24%, 30%, 36%, 42%, 48%, 54% {
           opacity: var(--opacity-start);
         }
-        1.5%,4.5%,7.5%,10.5%,13.5%,16.5%,19.5%,22.5%,25.5%,28.5%,31.5%,34.5%,37.5%,40.5%,43.5%,46.5%,49.5%,52.5%,55.5%,58.5%,100% {
+        3%, 9%, 15%, 21%, 27%, 33%, 39%, 45%, 51%, 57%, 100% {
           opacity: var(--opacity-end);
         }
       }
@@ -99,7 +99,7 @@
         values="0;0;1;1;0"
         keyTimes="0;0.79;0.8;0.95;1"
         begin="0s"
-        dur="5s"
+        dur="2s"
         repeatCount="indefinite"
       />
     </path>
@@ -125,7 +125,7 @@
       values="0;0;1;1;0"
       keyTimes="0;0.59;0.6;0.9;1"
       begin="0s"
-      dur="5s"
+      dur="2s"
       repeatCount="indefinite"
     />
   </g>
@@ -145,7 +145,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.04;0.05;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -157,7 +157,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.09;0.1;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -169,7 +169,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.14;0.15;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -181,7 +181,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.19;0.2;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -193,7 +193,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.24;0.25;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -205,7 +205,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.29;0.3;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -220,7 +220,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.39;0.4;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -233,7 +233,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.44;0.45;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
@@ -246,7 +246,7 @@
           values="0;0;1;1;0"
           keyTimes="0;0.49;0.5;0.9;1"
           begin="0s"
-          dur="5s"
+          dur="2s"
           repeatCount="indefinite"
         />
       </path>
